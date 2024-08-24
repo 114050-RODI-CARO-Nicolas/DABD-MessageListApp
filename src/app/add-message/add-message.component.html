@@ -1,0 +1,5 @@
+<div class="container m-1">
+    <!-- <input type="text" class="form-control mb-2 mt-2" (input)="onMsg($event)" placeholder="Escribí un mensaje"> -->
+    <input type="text"  class="form-control mb-2 mt-2" [(ngModel)]="newMessage" placeholder="Escribí tu mensaje">
+    <button class="btn btn-primary m-2" (click)="addMessageAtChild()">Enviar mensaje</button>
+</div>
